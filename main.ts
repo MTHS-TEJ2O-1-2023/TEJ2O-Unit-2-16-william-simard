@@ -9,7 +9,7 @@
 let distance: Number = 0
 
 //setup
-radio.setGroup(7)
+radio.setGroup(87)
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
@@ -19,11 +19,12 @@ input.onButtonPressed(Button.A, function () {
         DigitalPin.P1,
         PingUnit.Centimeters
   )
-{ 
-
+}
+// shows the received info
 radio.onReceivedString(function (receivedString) {
     basic.clearScreen()
     basic.showString(receivedString)
     basic.showIcon(IconNames.Happy)
- })
+})
+
 }
