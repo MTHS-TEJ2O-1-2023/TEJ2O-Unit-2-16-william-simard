@@ -1,8 +1,20 @@
-/* Copyright (c) 2020 MTHS All rights reserved
+/* Copyright (c) 2023 MTHS All rights reserved
  *
- * Created by: Mr. Coxall
- * Created on: Sep 2020
+ * Created by: william simard
+ * Created on: dec 2023
  * This program ...
 */
 
-basic.showString('Hello, World!')
+// variable
+let distance: Number = 0
+
+//setup
+radio.setGroup(87)
+basic.showIcon(IconNames.Happy)
+
+input.onButtonPressed(Button.A, function () { 
+    distance = 
+    DigitalPin.P0,
+    DigitalPin.P1,
+    PingUnit.Centimeters
+   })
